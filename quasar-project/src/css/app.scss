@@ -1,0 +1,41 @@
+// app global css in SCSS form
+.q-uploader__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .q-uploader__list-item {
+    flex: 1 0 auto;
+  }
+
+  .q-uploader{
+    width: 80%;
+  }
+
+  .mediaBox{
+    //background-color: red;
+    padding: 10px;
+    //margin: 10px;
+  }
+
+  .mediaBoxBottom{
+    background-color: $primary;
+    padding: 5px;
+    margin-top: 0px;
+  }
+
+  .boxSlider{
+    color: black;
+  }
+
+  .btnShowMediaBar{
+    background-color: $secondary;
+    color: white;
+  }
+
+  /*.borderBox{
+    box-sizing: border-box;
+    border: 10px solid $primary;
+    padding: 10px;
+    margin: 10px;
+}*/
